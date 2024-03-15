@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-dK0XVFTj0IlLd5Mz3JhpntwH0ztjB6a25QzVcCj6mVgs3g7BD1XcKEaz6cNddZnj" crossorigin="anonymous">
+  <title>Document</title>
+</head>
+<body>
+  <div class="cv-projects">
+    <h2>
+      <i class="fa-solid fa-paintbrush"></i>
+      {{ i18n "section-header.projects" }}
+    </h2>
+    {{ range . }}
+      <div class="cv-projects-item">
+        <div class="cv-projects-item-header">
+          <div class="cv-projects-item--name">
+            {{ if .link }}
+              <a href="{{ .link }}" target="_blank" rel="noopener noreferrer">
+                {{ .name | markdownify }}
+                <i class="fa-solid fa-link"></i>
+              </a>
+            {{ else }}
+              {{ .name | markdownify }}
+            {{ end }}
+          </div>
+          <div class="cv-projects-item--info">
+            <div>
+              
+              {{ .date | markdownify }}
+            </div>
+            <div style="color:darkseagreen;">
+              {{ with .techstack }}
+                <i class="{{ .icon }}"></i>
+                {{ .name | markdownify }}
+              {{ end }}
+            </div>
+          </div>
+        </div>
+        <div class="cv-projects-item-description">
+          {{ .description | markdownify }}
+        </div>
+      </div>
+    {{ end }}
+    <p>
+      <em>{{ i18n "projects.footer-message" }}</em>
+    </p>
+  </div>
+  
+</body>
+</html>
+
