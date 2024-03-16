@@ -1,4 +1,4 @@
-baseURL = 'https://cv-dusky-five.vercel.app/'
+baseURL = 'https://dibyadyuti-cv.vercel.app/'
 languageCode = 'en-us'
 title = 'CV | Dibyadyuti Dutta'
 disableKinds = ["taxonomy", "term"]
