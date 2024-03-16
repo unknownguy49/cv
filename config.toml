@@ -1,6 +1,6 @@
-baseURL = 'https://cv.diogotc.com'
+baseURL = 'https://cv-dusky-five.vercel.app/'
 languageCode = 'en-us'
-title = 'CV | Diogo Correia'
+title = 'CV | Dibyadyuti Dutta'
 disableKinds = ["taxonomy", "term"]
 
 defaultContentLanguage = 'en'

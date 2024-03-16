@@ -11,13 +11,15 @@
               {{ $rating := . }}
               {{ range $i := (seq 1 5) }}
                 {{ if (le $i $rating) }}
-                  <i
-                    class="fa-solid fa-circle cv-skills-entry--rating-circle__active"
-                  ></i>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="13" height="13" style="fill: rgb(51, 100, 167);">
+                  <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z"/>
+                </svg>
+                
                 {{ else }}
-                  <i
-                    class="fa-solid fa-circle cv-skills-entry--rating-circle__inactive"
-                  ></i>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="13" height="13" style="fill: rgb(51, 100, 167);">
+                  <path d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256z"/>
+                </svg>
+                
                 {{ end }}
               {{ end }}
             {{ end }}
