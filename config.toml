@@ -1,6 +1,6 @@
 baseURL = 'https://dibyadyuti-cv.vercel.app/'
 languageCode = 'en-us'
-title = 'CV | Dibyadyuti Dutta'
+title = 'Resume | Dibyadyuti Dutta'
 disableKinds = ["taxonomy", "term"]
 
 defaultContentLanguage = 'en'
