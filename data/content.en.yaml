@@ -73,32 +73,18 @@ sections:
         name: "Python, Google Custom Search API, Unsplash API"
       description: >-
         This is a mini search engine developed using Python and Tkinter GUI library. It enables text-based and image searches.
-    - name: NouriShare
-      link: https://github.com/unknownguy49/NouriShare
+    - name: Restaurant Management System
+      link: https://github.com/unknownguy49/Restaurant-Management-System
       techstack:
-        name: "HTML, CSS, JavaScript, Flask, Python"
+        name: "Java, MySQL, JDBC"
       description: >-
-        The project connects food donors with food banks to reduce waste. Users can sign up, donate surplus food, and request pick-ups. Admins manage donation requests. (Collaborator)
-    - name: P.U.L.S.E.
-      link: https://github.com/unknownguy49/P.U.L.S.E.
-      techstack:
-        name: "Python, Random Forest classifier"
-      description: >-
-        A Python project designed for mental health assessment purposes.
-    - name: SnipSnap - U.R.L. Shortener
-      link: https://github.com/unknownguy49/SnipSnap
-      techstack:
-        name: "Python, TinyURL API"
-      description: >-
-        Python URL shortener with Tkinter. Input long URL, get shortened link.
-    - name: JobHorizon
-      link: https://github.com/unknownguy49/JobHorizon
-      techstack:
-        name: "HTML, CSS, JavaScript, Python"
-      description: >-
-        A website facilitating internship applications and inquiries. It features internship listings, an application form, and a contact page. (Collaborator)
+        Developed using Java and MySQL, it handles table bookings, food orders, and customer feedback seamlessly.
    
   extracurriculars:
     - name: Member of VCODE Team @ Computer Society of India (CSI) Chapter, VIT-AP
       link: https://csivitap.co.in/
+      icon: "fa-solid fa-user-secret"
+
+    - name: Member of Outreach Team @ Microsoft Student Chapter, VIT-AP
+      link: https://www.linkedin.com/company/microsoft-student-chapter-vit-ap/
       icon: "fa-solid fa-user-secret"
