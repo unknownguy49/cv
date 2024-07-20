@@ -1,4 +1,4 @@
-# Curriculum Vitae - Dibyadyuti Dutta
+# Resume - Dibyadyuti Dutta
 
 ## Project Structure
 
