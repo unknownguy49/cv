@@ -100,13 +100,3 @@ sections:
     - name: Member of Outreach Team @ Microsoft Student Chapter, VIT-AP
       link: https://www.linkedin.com/company/microsoft-student-chapter-vit-ap/
       icon: "fa-solid fa-user-secret"
-
-  certificates:
-    - name: GitHub Foundations
-      organization: GitHub
-      date: 2023
-      description: Completed with an overall score of 73%.
-    - name: NVIDIA Deep Learning and Accelerated Computing
-      organization: NVIDIA
-      date: 2024
-      description: Focused on deep learning and high-performance computing techniques.
